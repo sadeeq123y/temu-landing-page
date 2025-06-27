@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Exclusive Temu Deals</title>
+<style>
+  body {
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    margin: 0;
+    padding: 0;
+  }
+  .container {
+    max-width: 400px;
+    margin: 40px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+  }
+  h1 {
+    color: #e53238;
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  p.subheadline {
+    font-size: 16px;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 20px;
+    color: #555;
+  }
+  ul li {
+    margin-bottom: 10px;
+    padding-left: 20px;
+    position: relative;
+  }
+  ul li::before {
+    content: "🎉";
+    position: absolute;
+    left: 0;
+  }
+  label {
+    display: block;
+    margin-bottom: 6px;
+    font-weight: bold;
+  }
+  input[type="email"],
+  input[type="text"] {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1.5px solid #ddd;
+    border-radius: 5px;
+    font-size: 16px;
+  }
+  button {
+    width: 100%;
+    background-color: #e53238;
+    color: white;
+    border: none;
+    padding: 14px;
+    font-size: 18px;
+    border-radius: 6px;
+    cursor: pointer;
+  }
+  button:hover {
+    background-color: #b0252b;
+  }
+  p.privacy {
+    font-size: 12px;
+    color: #777;
+    margin-top: 15px;
+    text-align: center;
+  }
+</style>
+</head>
+<body>
+
+<div class="container">
+  <h1>Get Exclusive Temu Deals Delivered Straight to Your Inbox!</h1>
+  <p class="subheadline">Enter your email and zip code now to unlock special discounts, flash sales, and limited-time offers only for Temu shoppers in your area.</p>
+
+  <ul>
+    <li>Access to exclusive Temu coupons and promo codes</li>
+    <li>Be the first to know about new arrivals and flash sales</li>
+    <li>We respect your privacy — no spam, just deals!</li>
+  </ul>
+
+  <form id="leadForm" action="YOUR_CPA_OFFER_LINK_HERE" method="POST">
+    <label for="email">Email Address</label>
+    <input type="email" id="email" name="email" required placeholder="you@example.com" />
+
+    <label for="zip">Zip Code</label>
+    <input type="text" id="zip" name="zip" required placeholder="12345" pattern="[0-9]{5}" title="Five digit zip code" />
+
+    <button type="submit">Get My Temu Deals Now!</button>
+  </form>
+
+  <p class="privacy">Your info is safe with us. We’ll never share your details. Unsubscribe anytime.</p>
+</div>
+
+</body>
+</html>
